@@ -1,0 +1,30 @@
+ipykernel
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scipy
+scikit-learn
+imblearn
+xgboost
+cmake
+catboost
+pymongo
+from_root
+evidently==0.2.8
+dill
+PyYAML
+neuro_mf
+boto3
+mypy-boto3-s3
+botocore
+fastapi
+uvicorn
+jinja2
+python-multipart
+-e . 
+# it will look for setup.py and execute the code # # packages = find_packages () will look for __init__looks for each constructor file __init__.py and will install them as local packages in the venv 
+# The -e . flag in requirements.txt tells pip to install a project from its current directory as an editable package.
+# This means that any changes you make to the project's source code will be reflected immediately when you import the package in your running Python session, without requiring a reinstallation.
+# This is useful for developing and iterating on your own project's code, especially when it depends on other local changes.
