@@ -3,7 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 notes.ipynb
-mongoDB_demo.ipynb
+*.ipynb
+./notebook/mongoDB_demo.ipynb
+
 # C extensions
 *.so
 
