@@ -1,12 +1,11 @@
-# E2E_ML_Project
-A repository of End to End ML project for US visa approval. Follow below steps to run the code.
+# US VISA APPLICATION STATUS
 
-## Step1 : create folder structure
-python template.py
+ABOUT DATASET -
+The dataset is sourced from kaggle.
+Source of data -> https://www.kaggle.com/datasets/jboysen/us-perm-visas
 
-## Step2 : commands to create venv
-conda create -n visa python=3.8 -y #n installs in c drive
-conda activate visa
+This repo aims to showcase two things
+1. Predict visa decisions based on employee/employer/wage?
+2. Develop an E2E project with modular coding that can be containerized with docker and deployed on the cloud
 
-## Step3 : installing requirements.txt
-pip3 install -r requirements.txt
+Refer readme2.md for detailed steps to execute the project.
