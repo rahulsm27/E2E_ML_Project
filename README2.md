@@ -13,3 +13,5 @@ conda activate visa
 
 ## Step3 : installing requirements.txt
 pip3 install -r requirements.txt
+
+export MONGODB_URL="<mongodb url>"
