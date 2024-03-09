@@ -27,6 +27,8 @@ create an account on Mongodb and create a collection over there. Generate a conn
 export MONGODB_URL="<mongodb url>"
 
 ## Step4: To run the file locally
+export AWS_ACCESS_KEY_ID =<>
+export AWS_SECRET_ACCESS_KEY=<>
 python demo.py
 
 
@@ -44,7 +46,7 @@ ECR: Elastic Container registry to save your docker image in aws
 
 3. Create a ECR registry(usvisa) on AWS (666711044981.dkr.ecr.us-east-1.amazonaws.com/usvisa)
 
-4. Create EC2 Instance (usvisa-machine) - 32Gb volume 8 Gb Ram. Add 8080 custom TCP port
+4. Create EC2 Instance (usvisa-machine) - 32Gb volume 8 Gb Ram. Add 7080 custom TCP port
 
 5. Connect to the instance. Update the packages
 sudo apt-get update -y
